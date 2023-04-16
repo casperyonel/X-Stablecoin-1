@@ -11,7 +11,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract CLAIM is ERC20, ERC20Burnable, Ownable {
 
-    constructor() ERC20("X Coin", "X") {
+    constructor() ERC20("CLAIM Coin", "CLAIM") {
     }
     
     // Make this only callable by walletContract
